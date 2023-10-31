@@ -13,7 +13,7 @@ Desenvolver em HTML, CSS e Js/Jquery com o layout enviado:
 - Uma animação no botão "Veja nossa equipe";
 	- As fotos da equipe inicialmente estarão ocultas e apenas vão aparecer quando o usuário clicar no botão "Veja nossa equipe".
 
-⮞ Para visualizar o site criado <a href="https://mayaraplaza.github.io/AgenciaFG-Teste/Projeto-Site/index.html">clique aqui</a>
+⮞ Para visualizar o site criado <a href="https://mayaraplaza.github.io/AgenciaFG-Teste/Projeto-Site/index.html" target="_blank">clique aqui</a>
 
 - Criado hover em todos os botões
 - Carrossel no banner principal, rotativo com 3 imagens
