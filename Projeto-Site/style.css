@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+nav.centralizado {
+    display: inline-block;
+    text-align: left;
+}
+
+.logo {
+    max-width: 200px;
+    padding-right: 100px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #545454;
+}
+
+.menu a:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.5, 0);
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f86a42;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #888;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px #888;
+}
+
+/*carrossel*/
+
+body,
+html {
+    height: 30%;
+    margin: 0;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (orientation: portrait) {
+    .slideshow-container {
+        width: 30%;
+        height: 30vh;
+    }
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 350px;
+    width: 100%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*infos empresa*/
+.titulo-principal {
+    color: #f86a42;
+}
+
+.conteudo-horizontal {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.empresa {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.texto-e-botao {
+    flex: 1;
+}
+
+.centralizar-botao {
+    text-align: center;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: #faae00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn2:hover {
+    background-color: #ffbf00;
+    color: #000;
+}
+
+.imagens {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.imagens img {
+    width: 230px;
+    height: 160px;
+    object-fit: cover;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+.email{
+    font-weight: bold;
+}
+
+.telefone{
+    font-weight: bold;
+}

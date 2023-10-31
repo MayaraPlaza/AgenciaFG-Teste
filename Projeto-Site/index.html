@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagens/favicon.PNG" type="image/x-icon">
+    <title>Mayara Plaza</title>
+</head>
+
+<body>
+    <header>
+        <nav class="centralizado">
+            <ul class="menu">
+                <li>
+                    <div class="logo">
+                        <img src="Imagens/logo-header.png" alt="Logo da Empresa">
+                    </div>
+                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">EMPRESA</a></li>
+                <li><a href="https://www.linkedin.com/in/mayaraplaza" target="_blank">CONTATO</a></li>
+                <li><a href="tel:+5511942664142"><button class="btn">+55 11 94266-4142</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="Imagens/photo-1.jpeg" alt="Grande grupo de pessoas diversificado em frente ao edifício da empresa, simbolizando a valorização da diversidade, união e colaboração no ambiente de trabalho.">
+        </div>
+        <div class="mySlides fade">
+            <img src="Imagens/photo-2.jpeg" alt="Na imagem, uma equipe está reunida em torno de uma mesa onde uma folha de papel com dados está exposta. Todos os membros estão atentos e engajados, apontando para seções do documento ">
+        </div>
+        <div class="mySlides fade">
+            <img src="Imagens/photo-3.jpeg" alt="A imagem retrata a equipe unindo as mãos, simbolizando o trabalho em equipe. Um grupo diversificado e entusiasmado se reúne em um ambiente acolhedor.">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <main>
+        <section class="principal">
+            <br>
+            <h2 class="titulo-principal">MAYARA PLAZA</h2>
+            <br>
+            <div class="conteudo-horizontal">
+                <img class="empresa" src="Imagens/photo-4.jpeg" alt="Na imagem, vemos um grupo de pessoas reunidas em um ambiente de trabalho colaborativo. Todos estão em volta de uma mesa, trocando ideias e compartilhando conhecimentos.">
+                <div class="texto-e-botao">
+                    <p>
+                        Graduada em Análise e Desenvolvimento de Sistemas, com experiência como desenvolvedora front-end na Ativa Investimentos. Trabalhei com Vue.js, Javascript, CSS, HTML, entre outras tecnologias, aprimorando habilidades em desenvolvimento web. Atualmente, no início do curso de Gestão em Tecnologia da Informação, buscando ampliar meu conhecimento na área. 
+                    </p> <br>
+                    <div class="centralizar-botao">
+                        <a href="https://www.linkedin.com/in/mayaraplaza/overlay/1635547087858/single-media-viewer/?profileId=ACoAAAYZnt8B9uSKaJiW0dc0NC5glYET57Bzf6k" target="_blank"><button class="btn2">SAIBA MAIS ⇉</button></a>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <p>No ambiente profissional, encontro realização e motivação em espaços acolhedores e colaborativos. Minha paixão está em contribuir ativamente com a equipe, trocar ideias e nutrir um ambiente de apoio mútuo. Valorizo a sinergia entre colegas, pois acredito no potencial único de cada pessoa para ensinar e aprender. Estou à procura de uma nova oportunidade profissional que me desafie, me permita crescer e evoluir constantemente. </p> <br>
+
+            <div class="centralizar-botao">
+                <button class="btn2" onclick="alternarImagens()">VEJA NOSSA EQUIPE ⇊ </button>
+            </div><br><br>
+            <div class="centralizar-botao">
+                <div class="imagens" style="display: none;">
+                    <img src="Imagens/click1.PNG" alt="Três mulheres caminhando e conversando em um corredor de empresa, expressando um ambiente de trabalho harmonioso.">
+                    <img src="Imagens/click2.PNG" alt="Duas pessoas sentadas, conversando em um ambiente de trabalho descontraído, trocando conhecimento, com outras pessoas trabalhando em diversos ambientes da empresa ao fundo">
+                    <img src="Imagens/click3.PNG" alt="Quatro pessoas colaborando, analisando conteúdo em um notebook, trocando opiniões e trabalhando em equipe.">
+                </div>
+            </div>
+            <br><br>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="centralizado">
+            <ul class="menu">
+                <li><a href="https://www.google.com/maps/place/R.+Abel+Tavares,+1607+-+Jardim+Belem,+S%C3%A3o+Paulo+-+SP,+03810-110/@-23.4871444,-46.4707236,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce61a92c10adeb:0x953aa80da02bd5d0!8m2!3d-23.4871444!4d-46.4707236!16s%2Fg%2F11ggbbrwpj?entry=ttu" target="_blank">Rua Abel Tavares, nº 123 <br>
+                        Ermelino Matarazzo/SP</a></li>
+                <li><a href="mailto:mayaracplaza@gmail.com?subject=Assunto do Email&body=Corpo da Mensagem" class="email">mayaracplaza@gmail.com</a></li>
+                <li><a href="tel:+5511942664142" class="telefone">+55 11 94266-4142</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
