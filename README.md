@@ -1,5 +1,5 @@
 # AgenciaFG-Teste
-Teste para Estágio em Desenvolvimento Web (SEO) Agencia FG
+Teste em Desenvolvimento (SEO) Agencia FG
 
 ❯ Objetivo:
 
